@@ -18,7 +18,7 @@ if(isset($_POST['submit']))
 	$tmp_image = $_FILES['image']['tmp_name'];
 	$imageSize = $_FILES['image']['size'];
 
-	echo $firstName . "<br>" . $lastName . "<br>" . $email . "<br>" . $password . "<br>" . $passwordConfirm . "<br>" . $image  . "<br>" . $imageSize;
+	//echo $firstName . "<br>" . $lastName . "<br>" . $email . "<br>" . $password . "<br>" . $passwordConfirm . "<br>" . $image  . "<br>" . $imageSize;
 
 	if (strlen($firstName) < 3) {
 		$error = "FirstName is too short";
@@ -40,6 +40,12 @@ if(isset($_POST['submit']))
 	} 
 	else {
 		//$error = "OK";
+		$password = md5($password);
+
+		$imageExt = explode(".", $image)[1];
+
+		$image = rand(0, 100000).rand(0, 100000).rand(0, 100000).time().".".$imageExt;
+
 		$insertQuery = "INSERT INTO users (firstName, lastName, email, password, image) VALUES ('$firstName', '$lastName', '$email', '$password', '$image')";
 		if (mysqli_query($con, $insertQuery) or die(mysqli_error($con))){
 			if(move_uploaded_file($tmp_image, "images/$image")){
