@@ -44,17 +44,23 @@ if(isset($_POST['submit']))
 
 		$imageExt = explode(".", $image)[1];
 
-		$image = rand(0, 100000).rand(0, 100000).rand(0, 100000).time().".".$imageExt;
+		if (strtoupper($imageExt) == 'PNG' || strtoupper($imageExt) == 'JPG') {
+		
+			$image = rand(0, 100000).rand(0, 100000).rand(0, 100000).time().".".$imageExt;
 
-		$insertQuery = "INSERT INTO users (firstName, lastName, email, password, image) VALUES ('$firstName', '$lastName', '$email', '$password', '$image')";
-		if (mysqli_query($con, $insertQuery) or die(mysqli_error($con))){
-			if(move_uploaded_file($tmp_image, "images/$image")){
-				$error = "You are successfully registered";
+			$insertQuery = "INSERT INTO users (firstName, lastName, email, password, image) VALUES ('$firstName', '$lastName', '$email', '$password', '$image')";
+			if (mysqli_query($con, $insertQuery) or die(mysqli_error($con))){
+				if(move_uploaded_file($tmp_image, "images/$image")){
+					$error = "You are successfully registered";
+				} else {
+					$error = "Image is not uploaded";
+				}
 			} else {
-				$error = "Image is not uploaded";
+				$error = "Unable to INSERT " . $image . " ";
 			}
-		} else {
-			$error = "Unable to INSERT " . $image . " ";
+		}
+		else {
+			$error = "File must be an image";
 		}
 	}
 
