@@ -18,6 +18,25 @@ class DB_Functions {
         
     }
 
+
+
+/**
+     * Storing new user
+     * returns user details
+     */
+    public function storeReport($user_id, $category_id, $title, $description, $latitude, $longitude, $image) {
+
+        $image_url = "";
+
+        $result = mysql_query("INSERT INTO reports(user_id, category_id, title, description, latitude, longitude, created_at) VALUES('$user_id', '$category_id', '$title', '$description', '$latitude', '$longitude', NOW())");
+   
+        if ($result) {
+            return mysql_insert_id();
+        } else {
+            return false;
+        }
+    }
+
     /**
      * Storing new user
      * returns user details

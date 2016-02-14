@@ -24,8 +24,8 @@ if (isset($_POST['tag']) && $_POST['tag'] != '') {
 	// check for tag type
 	if ($tag == 'login') {
 		// Request type is check Login
-		$email = $_POST['email'];
-		$password = $_POST['password'];
+		$email = mysql_real_escape_string($_POST['email']);
+		$password = mysql_real_escape_string($_POST['password']);
 
 		// check for user
 		$user = $db->getUserByEmailAndPassword($email, $password);
@@ -48,12 +48,29 @@ if (isset($_POST['tag']) && $_POST['tag'] != '') {
 		}
 	} else if ($tag == 'register') {
 		// Request type is Register new user
-		$name = $_POST['name'];
-		$email = $_POST['email'];
-		$password = $_POST['password'];
+		$name = mysql_real_escape_string($_POST['name']);
+		$email = mysql_real_escape_string($_POST['email']);
+		$password = mysql_real_escape_string($_POST['password']);
+
+
+		if (strlen($name) < 3) {
+			$response["error"] = 5;
+			$response["error_msg"] = "Name is too short";
+			echo json_encode($response);
+		}
+		else if (!filter_var($email, FILTER_VALIDATE_EMAIL)){
+			$response["error"] = 4;
+			$response["error_msg"] = "Invalid email entered";
+			echo json_encode($response);
+		} 
+		else if (strlen($password) < 6) {
+			$response["error"] = 3;
+			$response["error_msg"] = "Password must be greater than 6 characters";
+			echo json_encode($response);
+		} 
 
 		// check if user is already existed
-		if ($db->isUserExisted($email)) {
+		else if ($db->isUserExisted($email)) {
 			// user is already existed - error response
 			$response["error"] = 2;
 			$response["error_msg"] = "User already existed";
