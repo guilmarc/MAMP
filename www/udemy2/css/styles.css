@@ -15,6 +15,7 @@ body {
 	border:1px solid #999;
 	border-bottom:3px solid #999;
 	border-radius: 5px;
+	padding-bottom: 10px;
 }
 
 #formDiv{
@@ -22,5 +23,31 @@ body {
 	margin:0px auto;
 	margin-top: 20px;
 	border: 1px solid #CCC;
-	vertical-align: center;
+}
+
+#error {
+	width:1000px;
+	margin: 0px auto;
+}
+
+#menu {
+	width:990px;
+	margin:0px auto;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+
+#menu a {
+	text-decoration: none;
+	display: inline-block;
+	color:#666;
+	padding: 14px;
+
+	background-color: #eee;
+
+}
+
+#menu a:hover {
+	color:#000;
+	background-color: #ccc;
 }

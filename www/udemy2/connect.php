@@ -6,4 +6,6 @@
 		echo "Error occured thile connecting with database : " . mysqli_connect_errno();
 	}
 
+	session_start();
+
 ?>

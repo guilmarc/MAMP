@@ -4,12 +4,13 @@
 <?php
 
 	include("connect.php");
+	include("functions.php");
 
 	$error = "";
 
 if(isset($_POST['submit']))
 {
-	$firstName = $_POST['fname'];
+	$firstName = mysql_real_escape_string($_POST['fname']);
 	$lastName = $_POST['lname'];
 	$email = $_POST['email'];
 	$password = $_POST['password'];
@@ -17,6 +18,8 @@ if(isset($_POST['submit']))
 	$image = $_FILES['image']['name'];
 	$tmp_image = $_FILES['image']['tmp_name'];
 	$imageSize = $_FILES['image']['size'];
+
+	$date = date("F, d y");
 
 	//echo $firstName . "<br>" . $lastName . "<br>" . $email . "<br>" . $password . "<br>" . $passwordConfirm . "<br>" . $image  . "<br>" . $imageSize;
 
@@ -28,6 +31,9 @@ if(isset($_POST['submit']))
 	}
 	else if (!filter_var($email, FILTER_VALIDATE_EMAIL)){
 		$error = "Please enter a valid email address";
+	}
+	else if (email_exists($email, $con)) {
+		$error = "Someone is already registered with this email";
 	} 
 	else if (strlen($password) < 8) {
 		$error = "Password must be greater than 8 characters";
@@ -89,6 +95,11 @@ if(isset($_POST['submit']))
 		</div>
 
 		<div id="wrapper">
+
+			<div id="menu">
+				<a href="index.php">Sign Up</a>
+				<a href="login.php">Login</a>
+			</div>
 
 			<div id="formDiv">
 
