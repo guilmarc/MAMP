@@ -19,10 +19,60 @@ class DB_Functions {
     }
 
 
+    /**
+     * Get report for a specific user or for all ($user_id="")
+     */
+    public function getReports($user_id) {
+        
+        if($user_id == "") 
+        {
+            $result = mysql_query("SELECT * FROM reports") or die(mysql_error());
+        } else 
+        {
+            $result = mysql_query("SELECT * FROM reports WHERE user_id = '$user_id'") or die(mysql_error());
+        }
+        // check for result 
+        $no_of_rows = mysql_num_rows($result);
+        if ($no_of_rows > 0) {
+            $result = mysql_fetch_array($result);
+            return $result;
+            
+        } else {
+            // reports not found
+            return false;
+        }
+    }
 
-/**
-     * Storing new user
-     * returns user details
+    /**
+     * Storing new report
+     * returns new report ID
+     */
+    public function updateReport($id, $category_id, $title, $description, $latitude, $longitude, $image) {
+        return mysql_query("UPDATE reports SET category_id='$category_id', title='$title', description='$description', latitude='$latitude', longitude='$longitude', updated_at=NOW() WHERE id = '$id'");
+    }
+
+
+    /**
+     * Deleting report
+     * 
+     */
+    public function deleteReport($id, $user_id) {
+        $result = mysql_query("DELETE FROM reports WHERE id = '$id' and user_id = '$user_id'");
+
+        if (mysql_affected_rows() == 1)
+        {
+            return TRUE;
+        } 
+        else
+        {
+            return FALSE;
+        }
+    }
+
+
+    /**
+     * Storing new report
+     * returns new report ID
      */
     public function storeReport($user_id, $category_id, $title, $description, $latitude, $longitude, $image) {
 

@@ -39,8 +39,8 @@ if (isset($_POST['tag']) && $_POST['tag'] != '') {
 		}
 
 
-	}	
-	elseif ($tag == 'update') 
+	}
+	else if ($tag == 'update') 
 	{
 		$id = mysql_real_escape_string($_POST['id']);
 		$category_id = mysql_real_escape_string($_POST['category_id']);
@@ -64,8 +64,7 @@ if (isset($_POST['tag']) && $_POST['tag'] != '') {
 		}
 
 	}
-
-	elseif ($tag == 'select') 
+	else if ($tag == 'select') 
 	{
 		$user_id = mysql_real_escape_string($_POST['user_id']);
 
@@ -85,11 +84,15 @@ if (isset($_POST['tag']) && $_POST['tag'] != '') {
 		}
 
 	} 
-	elseif ($tag == 'delete') {
+	else if ($tag == 'delete') 
+	{
+		
+		echo "delete";
+		/*
 		$id = mysql_real_escape_string($_POST['id']);
 		$user_id = mysql_real_escape_string($_POST['user_id']);
 
-		$result = $db->deleteReport($id, $user_id);
+		$result = false //$db->deleteReport($id, $user_id);
 		
 		if ($result) {
 			// user stored successfully
@@ -101,13 +104,15 @@ if (isset($_POST['tag']) && $_POST['tag'] != '') {
 			$response["error"] = 13;
 			$response["error_msg"] = "Error occured while deleting report";
 			echo json_encode($response);
-		}
+		}*/
 	}
-	else 
-	{
+
+	else {
 		echo "Invalid Request";
 	}
 
+}
 
-	echo "TEST";
+else {
+	echo "Access Denied";
 }
