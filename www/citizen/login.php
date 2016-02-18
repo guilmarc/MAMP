@@ -34,6 +34,7 @@ if (isset($_POST['tag']) && $_POST['tag'] != '') {
 			// echo json with success = 1
 			$response["success"] = 1;
 			$response["uid"] = $user["unique_id"];
+			$response["user"]["id"] = $user["id"];
 			$response["user"]["name"] = $user["name"];
 			$response["user"]["email"] = $user["email"];
 			$response["user"]["created_at"] = $user["created_at"];
@@ -82,6 +83,7 @@ if (isset($_POST['tag']) && $_POST['tag'] != '') {
 				// user stored successfully
 				$response["success"] = 1;
 				$response["uid"] = $user["unique_id"];
+				$response["user"]["id"] = $user["id"];
 				$response["user"]["name"] = $user["name"];
 				$response["user"]["email"] = $user["email"];
 				$response["user"]["created_at"] = $user["created_at"];

@@ -48,7 +48,7 @@ class DB_Functions {
      * returns new report ID
      */
     public function updateReport($id, $category_id, $title, $description, $latitude, $longitude, $image) {
-        return mysql_query("UPDATE reports SET category_id='$category_id', title='$title', description='$description', latitude='$latitude', longitude='$longitude', updated_at=NOW() WHERE id = '$id'");
+        return mysql_query("UPDATE reports SET category_id='$category_id', title='$title', description='$description', latitude='$latitude', longitude='$longitude', image_file='$image', updated_at=NOW() WHERE id = '$id'");
     }
 
 
@@ -78,7 +78,7 @@ class DB_Functions {
 
         $image_url = "";
 
-        $result = mysql_query("INSERT INTO reports(user_id, category_id, title, description, latitude, longitude, created_at) VALUES('$user_id', '$category_id', '$title', '$description', '$latitude', '$longitude', NOW())");
+        $result = mysql_query("INSERT INTO reports(user_id, category_id, title, description, latitude, longitude, image_file, created_at) VALUES('$user_id', '$category_id', '$title', '$description', '$latitude', '$longitude', '$image', NOW())");
    
         if ($result) {
             return mysql_insert_id();
