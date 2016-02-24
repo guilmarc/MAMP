@@ -24,18 +24,22 @@ class DB_Functions {
      */
     public function getReports($user_id) {
         
-        if($user_id == "") 
-        {
+        //if($user_id == "") 
+        //{
             $result = mysql_query("SELECT * FROM reports") or die(mysql_error());
-        } else 
-        {
-            $result = mysql_query("SELECT * FROM reports WHERE user_id = '$user_id'") or die(mysql_error());
-        }
+        //} else 
+        //{
+        //    $result = mysql_query("SELECT * FROM reports WHERE user_id = '$user_id'") or die(mysql_error());
+        //}
         // check for result 
         $no_of_rows = mysql_num_rows($result);
         if ($no_of_rows > 0) {
-            $result = mysql_fetch_array($result);
-            return $result;
+           
+            while($row=mysql_fetch_array($result)) {
+                $return[] = $row;
+             }
+
+            return $return;
             
         } else {
             // reports not found
