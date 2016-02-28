@@ -29,6 +29,88 @@ class Functions {
         }
     }
 
+    function getReportsUpdatedAfter($local_sync_date){
+        try {
+
+            $sth = $this->pdo->prepare("SELECT * FROM reports WHERE updated_at > ?");
+            $sth->execute(array($local_sync_date));
+
+            $array = $result->fetchAll( PDO::FETCH_ASSOC );
+
+            return $array;
+
+        } catch (PDOException $ex) {
+            echo  $ex->getMessage();
+        }
+    }
+
+
+    /*
+     * Storing new report
+     * returns new report ID
+     */
+    public function storeReport($user_id, $category_id, $title, $description, $latitude, $longitude, $image) {
+
+        try {
+
+            $sth = $this->pdo->prepare("INSERT INTO reports(user_id, category_id, title, description, latitude, longitude, image_file, created_at, updated_at) VALUES(?, ?, ?, ?, ?, ?, ?, NOW(), NOW())");
+            $sth->execute(array($user_id, $category_id, $title, $description, $latitude, $longitude, $image));
+
+            return $this->pdo->lastInsertId();
+
+        } catch (PDOException $ex) {
+            echo  $ex->getMessage();
+        }
+
+    }
+
+
+    public function getReportImageFile($id) {
+        try {
+            $sth = $this->pdo->prepare("SELECT image_file FROM reports WHERE id = ?");
+            $sth->execute(array($id));
+
+            return  $sth->fetchColumn();
+
+        } catch (PDOException $ex) {
+            echo  $ex->getMessage();
+        }
+    }
+
+    public function updateReport($id, $user_id, $category_id, $title, $description, $latitude, $longitude) {
+
+        try {
+
+            $sth = $this->pdo->prepare("UPDATE reports SET category_id=?, title=?, description=?, latitude=?, longitude=?, updated_at=NOW() WHERE id = ? AND user_id = ?");
+            $sth->execute(array($category_id, $title, $description, $latitude, $longitude, $id, $user_id));
+
+            return $sth->rowCount();
+
+        } catch (PDOException $ex) {
+            echo  $ex->getMessage();
+        }
+
+    }
+
+
+
+    public function archiveReport($id, $user_id) {
+
+        try {
+
+            $sth = $this->pdo->prepare("UPDATE reports SET archived = 1 WHERE id = ? AND user_id = ?");
+            $sth->execute(array($id, $user_id));
+
+            return $sth->rowCount();
+
+        } catch (PDOException $ex) {
+            echo  $ex->getMessage();
+        }
+    }
+
+
+
+
     function getUsers(){
         try {
             $result = $this->pdo->query("SELECT * FROM users");

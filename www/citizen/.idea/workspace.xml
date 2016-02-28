@@ -21,62 +21,92 @@
     <favorites_list name="citizen_pdo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="class.connection.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/class.connection.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class.functions.php" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="class.functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/class.functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.27659574">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state vertical-scroll-proportion="-14.375">
+              <caret line="55" column="202" selection-start-line="55" selection-start-column="202" selection-end-line="55" selection-end-column="202" />
               <folding>
-                <marker date="1456346817000" expanded="true" signature="358:379" placeholder="SELECT * FRO... reports" />
-                <marker date="1456346817000" expanded="true" signature="644:663" placeholder="SELECT * FRO... users" />
-                <marker date="1456346817000" expanded="true" signature="1202:1355" placeholder="INSERT INTO users... " />
-                <marker date="1456346817000" expanded="true" signature="1498:1545" placeholder="INSERT INTO users... " />
-                <marker date="1456346817000" expanded="true" signature="1893:1935" placeholder="INSERT INTO users... " />
-                <marker date="1456346817000" expanded="true" signature="2692:2738" placeholder="SELECT email... users" />
-                <marker date="1456346817000" expanded="true" signature="2868:2914" placeholder="SELECT email... users" />
+                <marker date="1456430401000" expanded="true" signature="358:379" placeholder="SELECT * FRO... reports" />
+                <marker date="1456430401000" expanded="true" signature="674:716" placeholder="SELECT * FRO... reports" />
+                <marker date="1456430401000" expanded="true" signature="1191:1351" placeholder="INSERT INTO reports... " />
+                <marker date="1456430401000" expanded="true" signature="1708:1738" placeholder="SELECT FROM reports" />
+                <marker date="1456430401000" expanded="true" signature="1708:1751" placeholder="SELECT image... reports" />
+                <marker date="1456430401000" expanded="true" signature="2093:2221" placeholder="UPDATE repor... " />
+                <marker date="1456430401000" expanded="true" signature="2573:2617" placeholder="UPDATE TABLE... " />
+                <marker date="1456430401000" expanded="true" signature="2573:2633" placeholder="UPDATE repor... " />
+                <marker date="1456430401000" expanded="true" signature="2899:2918" placeholder="SELECT * FRO... users" />
+                <marker date="1456430401000" expanded="true" signature="3457:3610" placeholder="INSERT INTO users... " />
+                <marker date="1456430401000" expanded="true" signature="3753:3800" placeholder="SELECT * FRO... users" />
+                <marker date="1456430401000" expanded="true" signature="4148:4190" placeholder="SELECT * FRO... users" />
+                <marker date="1456430401000" expanded="true" signature="4947:4993" placeholder="SELECT email... users" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/config.php">
+      <file leaf-file-name="PDO.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state vertical-scroll-proportion="-18.0">
+              <caret line="1114" column="20" selection-start-line="1114" selection-start-column="20" selection-end-line="1114" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.php">
+      <file leaf-file-name="report.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../citizen_old/report.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state vertical-scroll-proportion="-7.5">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.7916665">
+              <caret line="138" column="50" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB_Functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../citizen_old/include/DB_Functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.50167227">
+              <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+              <folding>
+                <marker date="1456366929000" expanded="true" signature="539:560" placeholder="SELECT * FRO... reports" />
+                <marker date="1456366929000" expanded="true" signature="1301:1492" placeholder="UPDATE repor... " />
+                <marker date="1456366929000" expanded="true" signature="1632:1693" placeholder="DELETE FROM " />
+                <marker date="1456366929000" expanded="true" signature="2091:2302" placeholder="INSERT INTO reports... " />
+                <marker date="1456366929000" expanded="true" signature="2771:2924" placeholder="INSERT INTO users... " />
+                <marker date="1456366929000" expanded="true" signature="3057:3104" placeholder="SELECT * FRO... users" />
+                <marker date="1456366929000" expanded="true" signature="3402:3444" placeholder="SELECT * FRO... users" />
+                <marker date="1456366929000" expanded="true" signature="4202:4248" placeholder="SELECT email... users" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response74.html" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/include/class.connection.php" />
         <option value="$PROJECT_DIR$/login.php" />
+        <option value="/Applications/MAMP/bin/php/php5.6.10/conf/php.ini" />
+        <option value="$PROJECT_DIR$/report.php" />
         <option value="$PROJECT_DIR$/include/class.functions.php" />
       </list>
     </option>
@@ -86,12 +116,17 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="ddd8c774-c45e-47bc-8b05-450e7572546c" name="Unnamed" port="8888" />
+    </servers>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
+    <option name="x" value="38" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="988" />
+    <option name="width" value="1642" />
+    <option name="height" value="1022" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -118,6 +153,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -132,7 +168,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="citizen_pdo" />
+              <option name="myItemId" value="citizen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -142,7 +178,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="citizen_pdo" />
+              <option name="myItemId" value="citizen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -152,18 +188,670 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/IMG_0508_1024.jpg" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.login.php">
-    <configuration default="false" name="login.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/citizen_pdo/login.php">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen/report.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="tag" />
+                <option name="value" value="update" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="25" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="user_id" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="title" />
+                <option name="value" value="NOUVEAU_TITRE" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$PROJECT_DIR$/images/IMG_0508_1024.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen/report.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="tag" />
+                <option name="value" value="update" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="25" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="user_id" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="title" />
+                <option name="value" value="NOUVEAU_TITRE" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$PROJECT_DIR$/images/IMG_0508_1024.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen/report.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="tag" />
+                <option name="value" value="update" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="25" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="user_id" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="title" />
+                <option name="value" value="NOUVEAU_TITRE" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$PROJECT_DIR$/images/IMG_0508_1024.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen/report.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="tag" />
+                <option name="value" value="update" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="25" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="user_id" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="title" />
+                <option name="value" value="NOUVEAU_TITRE" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$PROJECT_DIR$/images/IMG_0508_1024.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen/report.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="tag" />
+                <option name="value" value="archive" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="25" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="user_id" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$PROJECT_DIR$/images/IMG_0508_1024.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen/report.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="tag" />
+                <option name="value" value="archive" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="28" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="user_id" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$PROJECT_DIR$/images/IMG_0508_1024.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen/report.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="tag" />
+                <option name="value" value="insert" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="category_id" />
+                <option name="value" value="99" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="title" />
+                <option name="value" value="Innondation" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="description" />
+                <option name="value" value="Y a de leau partout" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="latitude" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="longitude" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$PROJECT_DIR$/images/IMG_0508_1024.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen/report.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="tag" />
+                <option name="value" value="insert" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="category_id" />
+                <option name="value" value="99" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="title" />
+                <option name="value" value="Innondation" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="description" />
+                <option name="value" value="Y a de leau partout" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="latitude" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="longitude" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$PROJECT_DIR$/images/IMG_0508_1024.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen/report.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="tag" />
+                <option name="value" value="insert" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="category_id" />
+                <option name="value" value="99" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="title" />
+                <option name="value" value="Innondation" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="description" />
+                <option name="value" value="Y a de leau partout" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="latitude" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="longitude" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$PROJECT_DIR$/images/IMG_0508_1024.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen/report.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="tag" />
+                <option name="value" value="insert" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="category_id" />
+                <option name="value" value="99" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="title" />
+                <option name="value" value="Innondation" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="description" />
+                <option name="value" value="Y a de l'eau partout" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="latitude" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="longitude" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$PROJECT_DIR$/images/IMG_0508_1024.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen/report.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="tag" />
+                <option name="value" value="insert" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="category_id" />
+                <option name="value" value="99" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="title" />
+                <option name="value" value="Innondation" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="description" />
+                <option name="value" value="Y a de l'eau partout" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="latitude" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="longitude" />
+                <option name="value" value="0" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="isFileUpload" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$PROJECT_DIR$/images/IMG_0508_1024.jpg" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen/login.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="tag" />
+                <option name="value" value="login" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="email" />
+                <option name="value" value="hk78@live.ca" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="Sylver22" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen/login.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="tag" />
+                <option name="value" value="login" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="email" />
+                <option name="value" value="hk78@live.ca" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="password" />
+                <option name="value" value="Sylver22" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen/login.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="tag" />
+                <option name="value" value="login" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen/login.php" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/citizen" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8888" />
+          <option name="urlPath" value="/resources" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP HTTP Request.HTTPRequest">
+    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -180,10 +868,24 @@
     <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
       <method />
     </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method />
+    </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -192,20 +894,38 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8888">
+    <configuration default="false" name="JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:8888/citizen/login.php">
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="PHP Built-in Web Server.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.login.php" />
+    <configuration default="false" name="WebServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/.." port="8888">
+      <method />
+    </configuration>
+    <configuration default="false" name="HTTPRequest" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request" server_name="Unnamed" url="/citizen/login.php">
+      <HttpRequestSettings request_method="POST" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="Unnamed" session_id="test">
+      <method />
+    </configuration>
+    <configuration default="false" name="login" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/login.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="WebApplication" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="e5120d43-2c3f-47ef-9f26-65e539e05186" server_name="Unnamed" start_url="/citizen/login.php">
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JavaScript" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Built-in Web Server.WebServer" />
+      <item index="2" class="java.lang.String" itemvalue="PHP HTTP Request.HTTPRequest" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Remote Debug.Unnamed" />
+      <item index="4" class="java.lang.String" itemvalue="PHP Script.login" />
+      <item index="5" class="java.lang.String" itemvalue="PHP Web Application.WebApplication" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.login.php" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c834cf7f-b06e-4bf2-9d0b-11c76b217ba7" name="Default" comment="" />
@@ -216,25 +936,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="23" width="1920" height="988" extended-state="6" />
+    <frame x="38" y="23" width="1642" height="1022" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14007308" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31794333" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -260,24 +981,66 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/login.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/class.connection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/class.functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1456430401000" expanded="true" signature="358:379" placeholder="SELECT * FRO... reports" />
+            <marker date="1456430401000" expanded="true" signature="674:716" placeholder="SELECT * FRO... reports" />
+            <marker date="1456430401000" expanded="true" signature="1191:1351" placeholder="INSERT INTO reports... " />
+            <marker date="1456430401000" expanded="true" signature="1708:1738" placeholder="SELECT FROM reports" />
+            <marker date="1456430401000" expanded="true" signature="1708:1751" placeholder="SELECT image... reports" />
+            <marker date="1456430401000" expanded="true" signature="2093:2221" placeholder="UPDATE repor... " />
+            <marker date="1456430401000" expanded="true" signature="2573:2617" placeholder="UPDATE TABLE... " />
+            <marker date="1456430401000" expanded="true" signature="2573:2633" placeholder="UPDATE repor... " />
+            <marker date="1456430401000" expanded="true" signature="2899:2918" placeholder="SELECT * FRO... users" />
+            <marker date="1456430401000" expanded="true" signature="3457:3610" placeholder="INSERT INTO users... " />
+            <marker date="1456430401000" expanded="true" signature="3753:3800" placeholder="SELECT * FRO... users" />
+            <marker date="1456430401000" expanded="true" signature="4148:4190" placeholder="SELECT * FRO... users" />
+            <marker date="1456430401000" expanded="true" signature="4947:4993" placeholder="SELECT email... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding />
         </state>
@@ -285,24 +1048,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/MAMP/bin/php/php5.6.10/conf/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-63.962963">
+          <caret line="1164" column="0" selection-start-line="1164" selection-start-column="0" selection-end-line="1164" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/class.connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.01">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2006689">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/class.functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.27659574">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state vertical-scroll-proportion="-14.375">
+          <caret line="55" column="202" selection-start-line="55" selection-start-column="202" selection-end-line="55" selection-end-column="202" />
           <folding>
-            <marker date="1456346817000" expanded="true" signature="358:379" placeholder="SELECT * FRO... reports" />
-            <marker date="1456346817000" expanded="true" signature="644:663" placeholder="SELECT * FRO... users" />
-            <marker date="1456346817000" expanded="true" signature="1202:1355" placeholder="INSERT INTO users... " />
-            <marker date="1456346817000" expanded="true" signature="1498:1545" placeholder="INSERT INTO users... " />
-            <marker date="1456346817000" expanded="true" signature="1893:1935" placeholder="INSERT INTO users... " />
-            <marker date="1456346817000" expanded="true" signature="2692:2738" placeholder="SELECT email... users" />
-            <marker date="1456346817000" expanded="true" signature="2868:2914" placeholder="SELECT email... users" />
+            <marker date="1456430401000" expanded="true" signature="358:379" placeholder="SELECT * FRO... reports" />
+            <marker date="1456430401000" expanded="true" signature="674:716" placeholder="SELECT * FRO... reports" />
+            <marker date="1456430401000" expanded="true" signature="1191:1351" placeholder="INSERT INTO reports... " />
+            <marker date="1456430401000" expanded="true" signature="1708:1738" placeholder="SELECT FROM reports" />
+            <marker date="1456430401000" expanded="true" signature="1708:1751" placeholder="SELECT image... reports" />
+            <marker date="1456430401000" expanded="true" signature="2093:2221" placeholder="UPDATE repor... " />
+            <marker date="1456430401000" expanded="true" signature="2573:2617" placeholder="UPDATE TABLE... " />
+            <marker date="1456430401000" expanded="true" signature="2573:2633" placeholder="UPDATE repor... " />
+            <marker date="1456430401000" expanded="true" signature="2899:2918" placeholder="SELECT * FRO... users" />
+            <marker date="1456430401000" expanded="true" signature="3457:3610" placeholder="INSERT INTO users... " />
+            <marker date="1456430401000" expanded="true" signature="3753:3800" placeholder="SELECT * FRO... users" />
+            <marker date="1456430401000" expanded="true" signature="4148:4190" placeholder="SELECT * FRO... users" />
+            <marker date="1456430401000" expanded="true" signature="4947:4993" placeholder="SELECT email... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.0">
+          <caret line="1114" column="20" selection-start-line="1114" selection-start-column="20" selection-end-line="1114" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../citizen_old/report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.7916665">
+          <caret line="138" column="50" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../citizen_old/include/DB_Functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50167227">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <marker date="1456366929000" expanded="true" signature="539:560" placeholder="SELECT * FRO... reports" />
+            <marker date="1456366929000" expanded="true" signature="1301:1492" placeholder="UPDATE repor... " />
+            <marker date="1456366929000" expanded="true" signature="1632:1693" placeholder="DELETE FROM " />
+            <marker date="1456366929000" expanded="true" signature="2091:2302" placeholder="INSERT INTO reports... " />
+            <marker date="1456366929000" expanded="true" signature="2771:2924" placeholder="INSERT INTO users... " />
+            <marker date="1456366929000" expanded="true" signature="3057:3104" placeholder="SELECT * FRO... users" />
+            <marker date="1456366929000" expanded="true" signature="3402:3444" placeholder="SELECT * FRO... users" />
+            <marker date="1456366929000" expanded="true" signature="4202:4248" placeholder="SELECT email... users" />
           </folding>
         </state>
       </provider>
