@@ -1,5 +1,6 @@
 <?php
 
+
 if (isset($_POST['tag']) && $_POST['tag'] != '') {
 
     // get tag
@@ -116,7 +117,7 @@ if (isset($_POST['tag']) && $_POST['tag'] != '') {
 
     elseif ($tag == 'select')
     {
-        $user_id = $_POST['user_id'];
+       //$user_id = $_POST['user_id'];
 
         $result = $functions->getReports();
 
@@ -134,25 +135,60 @@ if (isset($_POST['tag']) && $_POST['tag'] != '') {
         }
 
     }
-    elseif ($tag == 'select_updated')
+    elseif ($tag == 'get_created')
     {
         $local_sync_date = $_POST['local_sync_date'];
+        $user_id = $_POST['user_id'];
 
-        $result = $functions->getReportsUpdatedAfter($updated_at);
 
-        if ($result) {
+        $result = $functions->getCreatedReportsSince($local_sync_date, $user_id);
+
+        //echo json_encode($result);
+        //echo $result;
+
+        //if ($result) {
             // user stored successfully
             $response["success"] = 1;
             $response["reports"] = $result;
             echo json_encode($response);
 
-        } else {
+        //} else {
             // user failed to store
-            $response["error"] = 12;
-            $response["error_msg"] = "Error occured while fetching report";
-            echo json_encode($response);
-        }
+        //    $response["error"] = 12;
+        //    $response["error_msg"] = "Error occured while fetching report";
+        //    echo json_encode($response);
+        //}
 
+    }
+    elseif ($tag == 'get_updated')
+    {
+        $local_sync_date = $_POST['local_sync_date'];
+        $user_id = $_POST['user_id'];
+
+        $result = $functions->getUpdatedReportsSince($local_sync_date);
+
+        //if ($result) {
+            // user stored successfully
+            $response["success"] = 1;
+            $response["reports"] = $result;
+            echo json_encode($response);
+
+        //} else {
+            // user failed to store
+        //    $response["error"] = 12;
+        //    $response["error_msg"] = "Error occured while fetching report";
+        //    echo json_encode($response);
+        //}
+
+    }
+    elseif ($tag == 'get_dirty')
+    {
+
+        $data = json_decode(file_get_contents('php://input'), true);
+
+        print_r($data);
+
+        //echo json_encode($data);
     }
     elseif ($tag == 'archive') {
         $id = $_POST['id'];

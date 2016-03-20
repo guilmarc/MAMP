@@ -18,6 +18,8 @@ class Functions {
 
     function getReports(){
         try {
+
+            //echo $this->pdo->query("SELECT * FROM reports");
             $result = $this->pdo->query("SELECT * FROM reports");
 
             $array = $result->fetchAll( PDO::FETCH_ASSOC );
@@ -29,13 +31,67 @@ class Functions {
         }
     }
 
-    function getReportsUpdatedAfter($local_sync_date){
+
+    function getMissingReportFromList($reports){
         try {
 
-            $sth = $this->pdo->prepare("SELECT * FROM reports WHERE updated_at > ?");
+            //$sth = $this->pdo->prepare("SELECT * FROM reports WHERE archived = FALSE AND id NOT IN (1,2,3,4,5)");
+
+
+            $inClause = empty($reports) ? "0" : implode(",", $reports);
+            $sth = $this->pdo->prepare("SELECT * FROM reports WHERE archived = FALSE AND id NOT IN (" . $inClause  . ")");
+
+            $sth->execute();
+
+            //We must not filter by user cause the same user can log into 2 different devices
+            //$sth = $this->pdo->prepare("SELECT * FROM reports WHERE created_at > ? AND user_id != ?");
+            //$sth->execute(array($local_sync_date, $user_id));
+
+            $array = $sth->fetchAll( PDO::FETCH_ASSOC );
+
+            return $array;
+
+        } catch (PDOException $ex) {
+            echo  $ex->getMessage();
+        }
+    }
+
+
+
+    function getCreatedReportsSince($local_sync_date, $user_id){
+        try {
+
+
+            $sth = $this->pdo->prepare("SELECT * FROM reports WHERE created_at > ? AND archived = FALSE");
             $sth->execute(array($local_sync_date));
 
-            $array = $result->fetchAll( PDO::FETCH_ASSOC );
+            //We must not filter by user cause the same user can log into 2 different devices
+            //$sth = $this->pdo->prepare("SELECT * FROM reports WHERE created_at > ? AND user_id != ?");
+            //$sth->execute(array($local_sync_date, $user_id));
+
+            $array = $sth->fetchAll( PDO::FETCH_ASSOC );
+
+            return $array;
+
+        } catch (PDOException $ex) {
+            echo  $ex->getMessage();
+        }
+    }
+
+    function getUpdatedReportsSince($local_sync_date, $reports){
+        try {
+
+            //echo $local_sync_date;
+
+            $inClause = empty($reports) ? "0" : implode(",", $reports);
+            //$sth = $this->pdo->prepare("SELECT * FROM reports WHERE updated_at > ?");
+            $sth = $this->pdo->prepare("SELECT * FROM reports WHERE updated_at > ? AND id IN (" . $inClause . ")");
+            $sth->execute(array($local_sync_date));
+
+            //$sth = $this->pdo->prepare("SELECT * FROM reports WHERE updated_at > ? AND user_id != ?");
+            //$sth->execute(array($local_sync_date, $user_id));
+
+            $array = $sth->fetchAll( PDO::FETCH_ASSOC );
 
             return $array;
 
@@ -53,7 +109,7 @@ class Functions {
 
         try {
 
-            $sth = $this->pdo->prepare("INSERT INTO reports(user_id, category_id, title, description, latitude, longitude, image_file, created_at, updated_at) VALUES(?, ?, ?, ?, ?, ?, ?, NOW(), NOW())");
+            $sth = $this->pdo->prepare("INSERT INTO reports(user_id, category_id, title, description, latitude, longitude, image_file, created_at) VALUES(?, ?, ?, ?, ?, ?, ?, NOW())");
             $sth->execute(array($user_id, $category_id, $title, $description, $latitude, $longitude, $image));
 
             return $this->pdo->lastInsertId();
@@ -77,12 +133,22 @@ class Functions {
         }
     }
 
+    //Attention, mush be the same user to be able to update
     public function updateReport($id, $user_id, $category_id, $title, $description, $latitude, $longitude) {
 
         try {
 
+            //echo "ID=".$id;
+            //echo "USER=".$user_id;
+            //echo "CAT=".$category_id;
+            //echo "TITLE=".$title;
+            //echo "DESCRIPTION=".$description;
+            //echo "LATITUDE=".$latitude;
+            //echo "LONGITUDE=".$longitude;
+
             $sth = $this->pdo->prepare("UPDATE reports SET category_id=?, title=?, description=?, latitude=?, longitude=?, updated_at=NOW() WHERE id = ? AND user_id = ?");
             $sth->execute(array($category_id, $title, $description, $latitude, $longitude, $id, $user_id));
+
 
             return $sth->rowCount();
 
